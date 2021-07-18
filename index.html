@@ -37,8 +37,17 @@
 		.fas {
 			color: darkgray;
 		}
-		
-		
+		.two-columns .column {
+			background-color: lightpink;
+			max-width: 300px;
+			display: inline-block;
+		}
+		.two-columns .padding {
+			padding-top: 10px;
+		}
+		@media screen and (max-width: 600px) {
+
+		}	
 	</style>
 </head>
 <body>
@@ -105,7 +114,7 @@
 				<td>
 					<table width="100%">
 						<tr>
-							<td style="padding-left: 165px; padding-top: 20px; line-height: 0.1;">
+							<td style="padding-left: 160px; padding-top: 20px; line-height: 0.1;">
 								<i class="fas fa-tag fa-2x"></i>
 								<p style="color: darkgray; display: inline-block; padding-left: 25px;">SHIPMENT TOTAL</p>
 								<p style="color: #145da0; padding-left: 65px;">$34.06</p>
@@ -119,8 +128,8 @@
 				<td>
 					<table width="100%">
 						<tr>
-							<td style="padding-top: 20px; padding-left: 165px;">
-								<p>Return or replace items in <span style="color: #145da0">Your Orders</span></p>
+							<td style="padding-top: 20px; padding-left: 160px;">
+								<p style="color: darkgray;">Return or replace items in <span style="color: #145da0">Your Orders</span></p>
 							</td>
 						</tr>
 					</table>
@@ -136,7 +145,44 @@
 					<table width="100%">
 						<tr>
 							<td>
-								<p>Customers Who Bought Items in Your Order Also Bought</p>
+								<p style="font-size: 12px; text-align: center;">Customers Who Bought Items in Your Order Also Bought</p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+<!--PRODUCTS, DETAILS AND PRICE | TWO COLUMNS-->
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td class="two-columns">
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<img src="img\shower-hooks.jpg">
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<img src="img\baskets.jpg">
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
 							</td>
 						</tr>
 					</table>
