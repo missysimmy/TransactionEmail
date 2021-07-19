@@ -24,7 +24,7 @@
 			width: 100%;
 			table-layout: fixed;
 			background-color: #cccccc;
-			padding-bottom: 40px;
+			padding-bottom:70px;
 		}
 		.main {
 			background-color: #ffffff;
@@ -38,12 +38,16 @@
 			color: darkgray;
 		}
 		.two-columns .column {
-			background-color: lightpink;
-			max-width: 300px;
+			max-width: 150px;
 			display: inline-block;
+			font-size: 12px;
 		}
 		.two-columns .padding {
-			padding-top: 10px;
+			padding-top: 15px;
+			padding-left: 150px;
+		}
+		.prime img {
+			padding: 10px;
 		}
 		@media screen and (max-width: 600px) {
 
@@ -52,7 +56,6 @@
 </head>
 <body>
 	<center class="wrapper">
-		<table class="main" width="100%">
 <!--LOGO-->
 			<tr>
 				<td>
@@ -65,6 +68,7 @@
 					</table>
 				</td>
 			</tr>
+			<table class="main" width="100%" style="border: 1px solid darkgray; border-top-width: 2px;">
 <!--HEADING, DATE OF SERVICE & BUTTON-->
 			<tr>
 				<td>
@@ -99,7 +103,7 @@
 				<td>
 					<table width="100%">
 						<tr>
-							<td style="padding-left: 165px; padding-top: 10px; line-height: 0.1;">
+							<td style="padding-left: 165px; padding-top: 30px; line-height: 0.1;">
 								<i class="fas fa-map-marker-alt fa-2x"></i>
 								<p style="color: darkgray; display: inline-block; padding-left: 30px;">SHIP TO</p>
 								<p style="padding-left: 60px;">Sarah</p>
@@ -137,7 +141,9 @@
 			</tr>
 <!--SOLID LINE SEPARATING CONTENT-->
 			<tr>
-				<td style="border: 1px solid darkgray; width: 25%;"></td>
+				<td>
+					<hr style="width: 450px; color:lightgray;">
+				</td>
 			</tr>
 <!--SUGGESTED ITEMS SECTION-->
 			<tr>
@@ -145,7 +151,7 @@
 					<table width="100%">
 						<tr>
 							<td>
-								<p style="font-size: 12px; text-align: center;">Customers Who Bought Items in Your Order Also Bought</p>
+								<p style="font-size: 12px; padding-left: 100px; padding-top: 20px;">Customers Who Bought Items in Your Order Also Bought</p>
 							</td>
 						</tr>
 					</table>
@@ -162,8 +168,9 @@
 										<td class="padding">
 											<table class="content">
 												<tr>
-													<td>
+													<td align="center">
 														<img src="img\shower-hooks.jpg">
+														<p style="color: darkgray;">Heavey Duty<br>Vacuum...<br>$11.99<img class="prime" src="img\logo-2.gif"></p>
 													</td>
 												</tr>
 											</table>
@@ -175,14 +182,35 @@
 										<td class="padding">
 											<table class="content">
 												<tr>
-													<td>
+													<td class="right" align="center">
 														<img src="img\baskets.jpg">
+														<p style="color: darkgray;">madesmart 2-tier...<br>$22.99<img class="prime" src="img\logo-2.gif"></p>
 													</td>
 												</tr>
 											</table>
 										</td>
 									</tr>
 								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+<!--SOLID LINE SEPARATING CONTENT-->
+			<tr>
+				<td>
+					<hr style="width: 450px; color:lightgray;">
+				</td>
+			</tr>
+<!--FOOTER-->
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td style="padding: 45px; padding-top: 15px;">
+								<p style="color: darkgray; font-size: 11px;">Unless otherwise noted, items sold by Amazon.com are subject to sales tax in select states in accordance with the applicable laws of that state. If your order contains one of more items from a seller other than Amazon.com, it may be subject to state and local sales tax, depending upon the sellers business policies and the location of their operations. Learn more about <span style="color: blue;">tax and seller information.</span></p>
+								<p style="color: darkgray; font-size: 11px;">Your invoice can be accessed <span style="color: blue;">here.</span></p>
+								<p style="color: darkgray; font-size: 11px;">This email was sent from a notification-only address that cannot accept incoming email. Please do not reply to this message.</p>
 							</td>
 						</tr>
 					</table>
