@@ -5,240 +5,68 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 	<title>Transaction Email</title>
-	<style type="text/css">
-		body {
-			margin: 0;
-			background-color: #cccccc;
-		}
-		table {
-			border-spacing: 0;
-		}
-		td {
-			padding: 0;
-		}
-		img {
-			border: 0;
-		}
-		.wrapper {
-			width: 100%;
-			table-layout: fixed;
-			background-color: #cccccc;
-			padding-bottom:70px;
-		}
-		.main {
-			background-color: #ffffff;
-			margin: 0 auto;
-			width: 100%;
-			border-spacing: 0;
-			max-width: 600px;
-			font-family: Arial, Helvetica, sans-serif;
-		}
-		.fas {
-			color: darkgray;
-		}
-		.two-columns .column {
-			max-width: 150px;
-			display: inline-block;
-			font-size: 12px;
-		}
-		.two-columns .padding {
-			padding-top: 15px;
-			padding-left: 150px;
-		}
-		.prime img {
-			padding: 10px;
-		}
-		@media screen and (max-width: 375px) {
-			
-		}
-		@media screen and (max-width: 560px) {
-			.truck, .ship-to, .total {
-				display: inline-block;
-				margin-left: -50px;
-			}
-			.return {
-				display: inline-block;
-				margin-left: -30px;
-			}
-			.suggested {
-				display: inline-block;
-				margin-left: -20px;
-			}
-			.products {
-				display: inline-block;
-				margin-left: -50px;
-			}
-			.line {
-				width: 50px;
-			}
-		}	
-	</style>
 </head>
 <body>
-	<center class="wrapper">
+
+
+	<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
 <!--LOGO-->
-			<tr>
-				<td>
-					<table width="100%">
-						<tr class="logo">
-							<td style="text-align: center; padding: 20px; background-color: #cccccc;">
-								<img src="img/logo.png">
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-			<table class="main" width="100%" style="border: 1px solid darkgray; border-top-width: 2px;">
+		<tr class="logo">
+			<td style="text-align: center; padding: 20px; background-color: #cccccc;">
+				<img src="img/logo.png">
+			</td>
+		</tr>
 <!--HEADING, DATE OF SERVICE & BUTTON-->
-			<tr>
-				<td>
-					<table width="100%">
-						<tr>
-							<td class="intro" style="text-align: center;">
-								<p style="font-size: 16px;">Hi Sarah, your package will arrive:</p>
-								<p style="color: #068006; font-size: 22px; font-weight: bold;">Monday, July 12</p>
-								<button style="background-color: #FFC000; color: #000000; width: 300px; height: 45px;">Track package</button>
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-<!--ON THE WAY WITH TRUCK ICON-->
-			<tr>
-				<td>
-					<table width="100%">
-						<tr class="truck">
-							<td style="padding-left: 160px; padding-top: 50px; line-height: 0.1;">
-								<i class="fas fa-truck fa-2x"></i>
-								<p style="color: darkgray; display: inline-block; padding-left: 15px;">ON THE WAY</p>
-								<p style="padding-left: 60px;">2 items</p>
-								<p style="color: darkgray; display: inline-block; padding-left: 60px;">Order #114-0750570-5793027</p>
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-<!--SHIP TO WITH LOCATION ICON-->	
-			<tr>
-				<td>
-					<table width="100%">
-						<tr class="ship-to">
-							<td style="padding-left: 160px; padding-top: 30px; line-height: 0.1;">
-								<i class="fas fa-map-marker-alt fa-2x"></i>
-								<p style="color: darkgray; display: inline-block; padding-left: 30px;">SHIP TO</p>
-								<p style="padding-left: 60px;">Sarah</p>
-								<p style="display: inline-block; padding-left: 60px;">ORLANDO, FL</p>
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-<!--SHIPMENT WITH PRICE TAG ICON-->
-			<tr>
-				<td>
-					<table width="100%">
-						<tr class="total">
-							<td style="padding-left: 160px; padding-top: 20px; line-height: 0.1;">
-								<i class="fas fa-tag fa-2x"></i>
-								<p style="color: darkgray; display: inline-block; padding-left: 25px;">SHIPMENT TOTAL</p>
-								<p style="color: #145da0; padding-left: 65px;">$34.06</p>
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-<!--RETURN OR REPLACE ITEMS MESSAGE-->
-			<tr>
-				<td>
-					<table width="100%">
-						<tr class="return">
-							<td style="padding-top: 20px; padding-left: 160px;">
-								<p class="return" style="color: darkgray;">Return or replace items in <span style="color: #145da0">Your Orders</span></p>
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-<!--SOLID LINE SEPARATING CONTENT-->
-			<tr>
-				<td>
-					<hr class="line" style="width: 450px; color:lightgray;">
-				</td>
-			</tr>
-<!--SUGGESTED ITEMS SECTION-->
-			<tr>
-				<td>
-					<table width="100%">
-						<tr class="suggested">
-							<td>
-								<p style="font-size: 12px; padding-left: 100px; padding-top: 20px;">Customers Who Bought Items in Your Order Also Bought</p>
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-<!--PRODUCTS, DETAILS AND PRICE | TWO COLUMNS-->
-			<tr>
-				<td>
-					<table width="100%">
-						<tr>
-							<td class="two-columns">
-								<table class="column">
-									<tr class="products">
-										<td class="padding">
-											<table class="content">
-												<tr>
-													<td align="center">
-														<img src="img\shower-hooks.jpg">
-														<p style="color: darkgray;">Heavey Duty<br>Vacuum...<br>$11.99<img class="prime" src="img\logo-2.gif"></p>
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-								<table class="column">
-									<tr>
-										<td class="padding">
-											<table class="content">
-												<tr class="products">
-													<td class="right" align="center">
-														<img src="img\baskets.jpg">
-														<p style="color: darkgray;">madesmart 2-tier...<br>$22.99<img class="prime" src="img\logo-2.gif"></p>
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-<!--SOLID LINE SEPARATING CONTENT-->
-			<tr class="line">
-				<td>
-					<hr style="width: 450px; color:lightgray;">
-				</td>
-			</tr>
-<!--FOOTER-->
-			<tr>
-				<td>
-					<table width="100%">
-						<tr class="footer">
-							<td style="padding: 45px; padding-top: 15px;">
-								<p style="color: darkgray; font-size: 11px;">Unless otherwise noted, items sold by Amazon.com are subject to sales tax in select states in accordance with the applicable laws of that state. If your order contains one of more items from a seller other than Amazon.com, it may be subject to state and local sales tax, depending upon the sellers business policies and the location of their operations. Learn more about <span style="color: blue;">tax and seller information.</span></p>
-								<p style="color: darkgray; font-size: 11px;">Your invoice can be accessed <span style="color: blue;">here.</span></p>
-								<p style="color: darkgray; font-size: 11px;">This email was sent from a notification-only address that cannot accept incoming email. Please do not reply to this message.</p>
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
+		<tr>
+			<td>
+				<table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0" style="text-align: center; line-height: 0.7;">
+					<tr>
+						<td>
+							<p>Hi Sarah, your package will arrive:</p>
+							<p style="font-size: 24px; font-weight: bold;">Monday, July 12</p>
+							<button style="width: 300px; height: 40px; background-color: #E4D00A;">Track package</button>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+<!--ON THE WAY SECTION-->
+		<tr>
+			<td>
+				<table class="container" width="600" align="left" cellspacing="0" cellpadding="0" border="0" style="text-align: center; padding-top: 30px; line-height: 0.2;">
+					<tr>
+						<td style="padding-left: 170px;"><i class="fas fa-truck fa-2x" style="color: darkgray;"></i></td>
+						<td style="color: darkgray; padding-right: 240px; font-weight: bold;">ON THE WAY</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding-left: 247px; padding-top: 5px;">2 items</td>
+		</tr>
+		<tr>
+			<td style="padding-left: 247px; padding-top: 10px; color: darkgray;">Order #114-0750570-5793027</td>
+		</tr>
+<!--SHIP TO SECTION-->	
+		<tr>
+			<td>
+				<table class="container" width="600" align="left" cellspacing="0" cellpadding="0" border="0" style="text-align: center; padding-top: 30px; line-height: 0.2;">
+					<tr>
+						<td style="padding-left: 160px;"><i class="fas fa-map-marker-alt fa-2x" style="color: darkgray;"></i></td>
+						<td style="color: darkgray; padding-right: 262px; font-weight: bold;">SHIP TO</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding-left: 247px; padding-top: 5px;">Sarah</td>
+		</tr>
+		<tr>
+			<td style="padding-left: 247px; padding-top: 10px; color: darkgray;">ORLANDO, FL</td>
+		</tr>	
 <!--END OF MAIN CONTENT-->			
-		</table>
-	</center>
+	</table>
 </body>
 </html>
