@@ -7,23 +7,36 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 	<title>Transaction Email</title>
+	<style>
+		@media only screen and (min-width: 960px) {
+
+		}
+		@media only screen and (max-width: 960px) {
+
+		}
+		@media only screen and (max-width: 600px) {
+			.container {
+				width: 100%;
+			}
+			
+		}
+	</style>
 </head>
 <body>
-
-
 	<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
 <!--LOGO-->
 		<tr class="logo">
-			<td style="text-align: center; padding: 20px; background-color: #cccccc;">
+			<td style="text-align: center; padding: 20px;">
 				<img src="img/logo.png">
 			</td>
 		</tr>
+<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="border: 1px solid lightgray; box-shadow: 0px 10px 5px rgb(173, 170, 170), 0px -10px 5px rgb(179, 178, 178);">
 <!--HEADING, DATE OF SERVICE & BUTTON-->
 		<tr>
 			<td>
 				<table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0" style="text-align: center; line-height: 0.7;">
 					<tr>
-						<td>
+						<td class="intro">
 							<p>Hi Sarah, your package will arrive:</p>
 							<p style="font-size: 24px; font-weight: bold;">Monday, July 12</p>
 							<button style="width: 300px; height: 40px; background-color: #E4D00A;">Track package</button>
@@ -35,7 +48,7 @@
 <!--ON THE WAY SECTION-->
 		<tr>
 			<td>
-				<table class="container" width="600" align="left" cellspacing="0" cellpadding="0" border="0" style="text-align: center; padding-top: 30px; line-height: 0.2;">
+				<table class="onthe way" width="600" align="left" cellspacing="0" cellpadding="0" border="0" style="text-align: center; padding-top: 30px; line-height: 0.2;">
 					<tr>
 						<td style="padding-left: 170px;"><i class="fas fa-truck fa-2x" style="color: darkgray;"></i></td>
 						<td style="color: darkgray; padding-right: 240px; font-weight: bold;">ON THE WAY</td>
