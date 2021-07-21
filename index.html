@@ -35,12 +35,26 @@
 			border-spacing: 0;
 			line-height: 0.8;
 		}
-		@media screen and (max-width: 960px) {
-
+		@media screen and (min-width: 960px) {
+			.fas  {
+				padding-left: 130px;
+				font-size: 30px;
+			}
+			.ontheway {
+				padding-right: 150px;
+			}
+			.shipto {
+				padding-right: 200px;
+			}
+			.total {
+				padding-right: 170px;
+			}
+			.return {
+				padding-left: 20px;
+				background-color: lightgreen;
+			}
 		}
-		@media screen and (max-width: 599.98px) {
-
-		}
+		
 	
 	</style>
 	<title>Transaction Email</title>
@@ -124,9 +138,9 @@
 <!--RETURN STATEMENT-->
 			<tr>
 				<td>
-					<table width="100%">
+					<table class="return" width="100%">
 						<tr>
-							<td style="padding-left: 40px; padding-bottom: 20px;">
+							<tdstyle="padding-left: 40px; padding-bottom: 20px;">
 								<p>Return or replace items in <span style="color: #0047AB">Your Orders</span></p>
 							</td>
 						</tr>
