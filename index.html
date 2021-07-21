@@ -5,150 +5,175 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-	<title>Transaction Email</title>
-	<style>
-		@media only screen and (min-width: 960px) {
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #dde0e1;
+		}
+		table {
+			border-spacing: 0;
+		}
+		td {
+			padding: 0;
+		}
+		img {
+			border: 0;
+		}
+		.wrapper {
+			width: 100%;
+			table-layout: fixed;
+			background-color: #dde0e1;
+			padding-bottom: 40px;
+		}
+		.main {
+			background-color: #ffffff;
+			margin: 0 auto;
+			width: 100%;
+			max-width: 600px;
+			border-spacing: 0;
+			line-height: 0.8;
+		}
+		@media screen and (max-width: 960px) {
 
 		}
-		@media only screen and (max-width: 960px) {
+		@media screen and (max-width: 599.98px) {
 
 		}
-		@media only screen and (max-width: 600px) {
-			.container {
-				width: 100%;
-			}
-			
-		}
+	
 	</style>
+	<title>Transaction Email</title>
 </head>
 <body>
-	<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
+	<center class="wrapper">
+		<table class="main" width="100%">
 <!--LOGO-->
-		<tr class="logo">
-			<td style="text-align: center; padding: 20px;">
-				<img src="img/logo.png">
-			</td>
-		</tr>
-<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="border: 1px solid lightgray; box-shadow: 0px 10px 5px rgb(173, 170, 170), 0px -10px 5px rgb(179, 178, 178);">
-<!--HEADING, DATE OF SERVICE & BUTTON-->
-		<tr>
-			<td>
-				<table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0" style="text-align: center; line-height: 0.7;">
-					<tr>
-						<td class="intro">
-							<p>Hi Sarah, your package will arrive:</p>
-							<p style="font-size: 24px; font-weight: bold;">Monday, July 12</p>
-							<button style="width: 300px; height: 40px; background-color: #E4D00A;">Track package</button>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-<!--ON THE WAY SECTION-->
-		<tr>
-			<td>
-				<table class="onthe way" width="600" align="left" cellspacing="0" cellpadding="0" border="0" style="text-align: center; padding-top: 30px; line-height: 0.2;">
-					<tr>
-						<td style="padding-left: 170px;"><i class="fas fa-truck fa-2x" style="color: darkgray;"></i></td>
-						<td style="color: darkgray; padding-right: 240px; font-weight: bold;">ON THE WAY</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-		<tr>
-			<td style="padding-left: 247px; padding-top: 5px;">2 items</td>
-		</tr>
-		<tr>
-			<td style="padding-left: 247px; padding-top: 10px; color: darkgray;">Order #114-0750570-5793027</td>
-		</tr>
-<!--SHIP TO SECTION-->	
-		<tr>
-			<td>
-				<table class="container" width="600" align="left" cellspacing="0" cellpadding="0" border="0" style="text-align: center; padding-top: 30px; line-height: 0.2;">
-					<tr>
-						<td style="padding-left: 160px;"><i class="fas fa-map-marker-alt fa-2x" style="color: darkgray;"></i></td>
-						<td style="color: darkgray; padding-right: 262px; font-weight: bold;">SHIP TO</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-		<tr>
-			<td style="padding-left: 247px; padding-top: 5px;">Sarah</td>
-		</tr>
-		<tr>
-			<td style="padding-left: 247px; padding-top: 10px; color: darkgray;">ORLANDO, FL</td>
-		</tr>	
-<!--SHIPMENT TOTAL-->
-		<tr>
-			<td>
-				<table class="container" width="600" align="left" cellspacing="0" cellpadding="0" border="0" style="text-align: center; padding-top: 30px; line-height: 0.2;">
-					<tr>
-						<td style="padding-left: 175px;"><i class="fas fa-tag fa-2x" style="color: darkgray;"></i></td>
-						<td style="color: darkgray; padding-right: 195px; font-weight: bold;">SHIPMENT TOTAL</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-		<tr>
-			<td style="padding-left: 247px; padding-top: 5px; color: #0047AB; font-weight: bold;">$34.06</td>
-		</tr>
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td style="text-align: center; padding: 20px 0 10px 0">
+								<img src="img/logo.png">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+<!--INTRODUCTION (NAME, DATE OF SERVICE, BUTTON)-->
+			<tr>
+				<td>
+					<table class="intro" width="100%">
+						<tr>
+							<td style="text-align: center;">
+								<p>Hi Sarah, your package will arrive:</p>
+								<h2>Monday, July 12</h2>
+								<button style="background-color: #FFC000; width: 300px; height: 40px;">Track package</button>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+<!--ON THE WAY SECTION WITH TRUCK ICON-->
+			<tr>
+				<td>
+					<table class="ontheway" width="100%" style="padding-left: 33px; padding-top: 30px;">
+						<tr>
+							<td>
+								<i style="padding-right: 10px; padding-bottom: 45px; color: darkgray;" class="fas fa-truck fa-lg"></i>
+							</td>
+							<td style="line-height: 1.3;">
+								<p style="color: darkgray;">ON THE WAY<br><span style="color: #000">2 items</span><br>Order #114-0750570-5793027</p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+<!--SHIP TO SECTION WITH LOCATION ICON-->
+			<tr>
+				<td>
+					<table class="shipto" width="100%" style="padding-left: 35px; padding-top: 30px;">
+						<tr>
+							<td>
+								<i style="padding-right: 10px; padding-bottom: 45px; color: darkgray;" class="fas fa-map-marker-alt fa-lg"></i>
+							</td>
+							<td style="line-height: 1.3; padding-right: 40px;">
+								<p style="color: darkgray;">SHIP TO<br><span style="color: #000">Sarah<br>ORLANDO, FL</span></p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+<!--SHIPMENT TOTAL WITH PRICETAG ICON-->
+			<tr>
+				<td>
+					<table class="total" width="100%" style="padding-left: 35px; padding-top: 30px;">
+						<tr>
+							<td>
+								<i style="padding-right: 10px; padding-bottom: 45px; color: darkgray;" class="fas fa-tag fa-lg"></i>
+							</td>
+							<td style="line-height: 1.3; padding-right: 40px;">
+								<p>SHIPMENT TOTAL<br>
+									$34.06
+								</p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
 <!--RETURN STATEMENT-->
-		<tr>
-			<td>
-				<table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0">
-					<tr>
-						<td>
-							<p style="color: darkgray; padding-top: 30px; padding: 30px 0 20px 180px;">Return or replace items in <span style="color: #0047AB">Your orders</span></p>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-<!--LINE SEPARATING SECTIONS-->
-		<tr>
-			<td>
-				<hr style="width: 75%; color: lightgray;">
-			</td>
-		</tr>
-<!--SUGGESTED SAYING-->
-		<tr>
-			<td>
-				<table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0">
-					<tr>
-						<td>
-							<p style="font-size: 14px; padding-top: 20px; padding-left: 100px;">Customers Who Bought Items in Your Order Also Bought</p>
-						</td>
-					</tr>
-					<tr>
-						<td style="padding-left: 130px; padding-bottom: 50px;">
-							<img src="img/Products.png">
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-<!--LINE SEPARATING SECTIONS-->
-		<tr>
-			<td>
-				<hr style="width: 75%; color: lightgray;">
-			</td>
-		</tr>
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td style="padding-left: 40px; padding-bottom: 20px;">
+								<p>Return or replace items in <span style="color: #0047AB">Your Orders</span></p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+<!--LINE SEPARATING CONTENT-->
+			<tr>
+				<td>
+					<hr style="border: 1px solid darkgray; width: 90%;">
+				</td>
+			</tr>
+<!--SUGGESTED ITEMS-->
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td style="padding: 20px 20px 40px 20px; font-size: 15px;">
+								<p>Customers Who Bought Items in Your Order Also Bought</p>
+								<img src="img/Products.png">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+<!--LINE SEPARATING CONTENT-->
+			<tr>
+				<td>
+					<hr style="border: 1px solid darkgray; width: 90%;">
+				</td>
+			</tr>
 <!--FOOTER-->
-		<tr>
-			<td>
-				<table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0">
-					<tr>
-						<td style="padding-top: 20px;  padding-left: 90px; padding-bottom: 30px; font-size: 12px; display: block; width: 70%;">
-							<p>Unless otherwise noted, items sold by Amazon.com are subject to sales tax in select states in accordance with the applicable laws of that state. If your order contains one or more items from a seller other than Amazon.com, it may be subject to state and local salex tax, depending upon the sellers business policies and the location of their operations. Learn more about <span style="color: #0047AB;">tax and seller information.</span></p>
-							<p>Your invoice can be accessed <span style="color: #0047AB">here.</span></p>
-							<p>This email was sent from a notification-only address that cannot accept incoming email. Please do not reply to this message.</p>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-<!--END OF MAIN CONTENT-->			
-	</table>
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td>
+								<p>Unless otherwise noted, items sold by Amazon.com are subject to salex tax in select states in accordance with the applicable laws of that sate.  If your order contains one or more items from a seller other than Amazon.com, it may be subject to state and local sales tax, depending upon the sllers business policies and the loation of their operations. Learn more about tax and seller information.</p>
+								<p>Your invoice can be accessed here.</p>
+								<p>This email was sent from a notification-only address that cannot accept incoming email. Please do not reply to this message.</p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+<!--END OF MAIN CONTENT-->
+		</table>
+	</center>
 </body>
 </html>
