@@ -52,15 +52,99 @@
 			.return {
 				padding-left: 120px;
 			}
+			.customers {
+				padding-left: 40px;
+			}
+			.products {
+				padding-left: 100px;
+			}
+			.footer {
+				padding: 5px 25px 0 25px;
+			}
 		}
-		
-	
+		@media screen and (max-width: 960px) {
+			.fas {
+				padding-left: 130px;
+				font-size: 30px;;
+			}
+			.ontheway {
+				padding-right: 150px;
+			}
+			.shipto {
+				padding-right: 200px;
+			}
+			.total {
+				padding-right: 170px;
+			}
+			.return {
+				padding-left: 130px;
+			}
+			.suggested {
+				padding-left: 50px;
+			}
+			.products {
+				padding-left: 100px;
+			}
+			.footer {
+				padding: 20px;
+			}
+			
+		}
+		@media screen and (max-width: 550px) {
+			.fas {
+				background-color: lightgreen;
+				margin-left: 40px;
+			}
+			.ontheway {
+				margin: 10px;
+			}
+			.products {
+				margin-left: 30px;
+			}
+		}
+		@media screen and (max-width: 560px) {
+			.fas {
+				padding-left: 50px;
+				font-size: 25px;
+			}
+			.ontheway {
+				padding-right: 20px;
+			}
+			.shipto {
+				padding-right: 50px;
+			}
+			.total {
+				padding-right: 20px;
+			}
+			.return {
+				padding-left: 50px;
+			}
+			.suggested {
+				padding-left: 20px;
+			}
+			.products {
+				padding-left: 40px;
+			}
+		}
+		@media screen and (max-width: 399.98px) {
+			.intro {
+				padding-right: 10px;
+			}
+			.fas {
+				padding-left: 10px;
+			}
+			.return {
+				padding-left: 5px;
+			}
+			.products {
+				padding-left: 5px;
+			}
+		}
 	</style>
 	<title>Transaction Email</title>
 </head>
 <body>
 	<center class="wrapper">
-		
 <!--LOGO-->
 			<tr>
 				<td>
@@ -156,11 +240,11 @@
 <!--SUGGESTED ITEMS-->
 			<tr>
 				<td>
-					<table width="100%">
+					<table class="customers" width="100%">
 						<tr>
 							<td style="padding: 20px 20px 40px 20px; font-size: 15px;">
-								<p>Customers Who Bought Items in Your Order Also Bought</p>
-								<img src="img/Products.png">
+								<p class="suggested">Customers Who Bought Items in Your Order Also Bought</p>
+								<img  class="products" src="img/Products.png">
 							</td>
 						</tr>
 					</table>
@@ -175,11 +259,11 @@
 <!--FOOTER-->
 			<tr>
 				<td>
-					<table width="100%">
+					<table class="footer" width="100%">
 						<tr>
-							<td style="font-size: 14px; padding: 15px;">
-								<p>Unless otherwise noted, items sold by Amazon.com are subject to salex tax in select states in accordance with the applicable laws of that sate.  If your order contains one or more items from a seller other than Amazon.com, it may be subject to state and local sales tax, depending upon the sllers business policies and the loation of their operations. Learn more about tax and seller information.</p>
-								<p>Your invoice can be accessed here.</p>
+							<td style="font-size: 14px; padding: 14px; line-height: 1;">
+								<p>Unless otherwise noted, items sold by Amazon.com are subject to salex tax in select states in accordance with the applicable laws of that sate.  If your order contains one or more items from a seller other than Amazon.com, it may be subject to state and local sales tax, depending upon the sllers business policies and the loation of their operations. Learn more about <span style="color: #0047AB;">tax and seller information.</span></p>
+								<p>Your invoice can be accessed <span style="color: #0047AB">here.</span></p>
 								<p>This email was sent from a notification-only address that cannot accept incoming email. Please do not reply to this message.</p>
 							</td>
 						</tr>
